@@ -132,7 +132,7 @@ $(document).ready(function() {
       url: requestUrl,
       method: 'POST',
       processData: false,
-      contentType: "application/json; charset=utf-8",
+      contentType: 'application/json',
       dataType: 'json',
       data: JSON.stringify({
         title: taskTitle,
