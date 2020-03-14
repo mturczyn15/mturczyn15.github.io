@@ -101,6 +101,7 @@ $(document).ready(function() {
         parentEl.attr('data-task-id', data.id).toggleClass('datatable__row--editing');
         parentEl.find('[data-task-name-paragraph]').text(taskTitle);
         parentEl.find('[data-task-content-paragraph]').text(taskContent);
+        availableTasks[data.id] = data;
       }
     });
   }
